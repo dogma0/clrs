@@ -6,7 +6,6 @@ def quick_sort(input_array, start, end):
         return
 
     pivot_index = randint(start, end)
-    # pivot_index = 1
     input_array[pivot_index], input_array[end] = input_array[end], input_array[pivot_index]
     pivot = input_array[end]
     left_index = -1
